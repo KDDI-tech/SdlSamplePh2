@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/lockscreen"
+        android:layout_width="wrap_content"
+        android:layout_height="234dp"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/lockscreen_img_description"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_lock"
+        app:srcCompat="@drawable/ic_lock" />
+
+    <TextView
+        android:id="@+id/lockmessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/lockscreen_textview" />
+</LinearLayout>

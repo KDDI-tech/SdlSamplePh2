@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_id">8675309</string>
+    <string name="app_name">SdlSamplePh2</string>
+
+<!-- 画面表示に関する設定  -->
+
+    <!-- Settings for Manticore -->
+    <!-- this parameters moved to local.properties -->
+    <!--
+    <integer name="manticore_tcp_port">19570</integer>
+    <string name="manticore_ip_addr">m.sdl.tools</string>
+    -->
+
+    <!-- NotificationChannel -->
+    <string name="notif_channel_id">sdl_demo_notif_channel_id</string>
+    <string name="notif_channel_name">sdl_demo_notif_channel_name</string>
+    <string name="notif_channel_desctiption">sdl_demo_notif_channel_description</string>
+
+    <!-- Notification -->
+    <string name="notif_content_title">SDL Demo Application</string>
+    <string name="notif_content_text">起動の準備が整いました！安全運転を心がけてください</string>
+
+    <!-- Command Menu -->
+    <string name="cmd_howtouser">使い方</string>
+    <string name="cmd_exit">アプリケーションの終了</string>
+
+    <!-- SdlService -->
+    <string name="action_service_close">serviceClosed</string>
+    <string name="is_first_connect">isFirstConnect</string>
+    <string name="tire_front_left">前輪(左)</string>
+    <string name="tire_front_right">前輪(右)</string>
+    <string name="tire_rear_left">後輪(左)</string>
+    <string name="tire_rear_right">後輪(右)</string>
+    <string name="tire_inner_left">中輪(左)</string>
+    <string name="tire_inner_right">中輪(右)</string>
+
+
+    <!-- スマホ内での表示内容  -->
+
+    <!-- Main Activity -->
+    <string name="connect_to_sdl">接続</string>
+    <!-- LockScreen Activity -->
+    <string name="lockscreen_img_description">LockScreenImage</string>
+    <string name="lockscreen_textview">走行中の操作は危険ですのでロックしています。</string>
+    <string name="lockscreen_press_back_btn">この画面では戻ることができません。</string>
+    <!--  Setting Activity -->
+    <string name="setting_error">1～99までの値を指定してください。</string>
+    <!--  Information Activity -->
+    <string name="never_connected_to_vehicle">このアプリはまだ一度も車両に接続されていません。</string>
+
+
+<!-- SharedPreferences keys -->
+    <string name="pref_key_init_flg">Initialization</string>
+    <string name="pref_key_vin">vin_list</string>
+
+</resources>
